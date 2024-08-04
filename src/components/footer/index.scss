@@ -1,0 +1,46 @@
+#footer {
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+    footer ul {
+        padding: 0;
+        list-style: none;
+        cursor: pointer;
+    }
+
+    footer h5 {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    footer p,
+    footer ul li {
+        margin-bottom: 10px;
+        line-height: 2;
+        font-weight: 400;
+    }
+
+    footer .social-icons a {
+        font-size: 1.5rem;
+        color: #007bff !important;
+        cursor: pointer;
+
+    }
+
+    footer .social-icons a i {
+        transition: color 0.3s;
+    }
+
+    footer .social-icons a:hover i {
+        color: #007bff;
+    }
+
+    .logoWhite {
+        margin-inline-start: -24px;
+        width: 88%;
+    }
+
+}

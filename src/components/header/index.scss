@@ -1,0 +1,116 @@
+#header {
+    overflow: scroll;
+    padding: 2px;
+    background-color: #fff;
+
+    .info {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 14px !important;
+        text-align: center;
+        color: black;
+    }
+
+    .info-num {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px !important;
+        text-align: center;
+        color: black;
+    }
+
+    .divider {
+        background-color: #000;
+        height: 30px;
+        width: 1px;
+    }
+
+    .request-quote {
+        padding: 10px 20px;
+        background-color: #0d99ff;
+        font-size: 12px;
+        color: white;
+        font-weight: 500;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #header .container {
+        flex-wrap: wrap;
+    }
+
+    .hero-container {
+        padding-inline: 2rem;
+    }
+
+    .dropdown-center {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        margin-top: 10px;
+    }
+
+    .request-quote {
+        margin-top: 10px;
+    }
+
+    .divider {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .hero-container {
+        padding-inline: 7rem;
+    }
+}
+
+.dropdown-center {
+    position: relative;
+    font-size: 14px;
+
+    .dropdown-button {
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        .icon {
+            font-size: 20px;
+        }
+    }
+
+    .dropdown-menu {
+        border-radius: 0;
+        background-color: #00000080;
+
+        .dropdown-item {
+            text-align: center;
+            color: white;
+            font-size: 10px;
+            text-transform: uppercase;
+            margin: 8px 10px 10px 0px;
+            font-weight: 600;
+        }
+
+        .dropdown-item:hover {
+            background: none;
+        }
+    }
+}
+
+.nav-item {
+    position: relative;
+
+    button {
+        color: #fff;
+        border: none;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}

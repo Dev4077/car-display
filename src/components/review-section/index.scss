@@ -1,0 +1,49 @@
+.review-section {
+    @media screen and (min-width: 991px) {
+
+        padding-inline: 11rem;
+    }
+
+
+    @media screen and (min-width: 991px) {
+        .img-icon {
+            width: 18%;
+            margin-inline: auto;
+        }
+    }
+
+    @media screen and (min-width: 991px) {
+        .five-star {
+            width: 67%;
+            margin-inline: auto;
+        }
+    }
+
+
+    .review-card {
+        color: white;
+        border: 4px solid #0D99FF !important;
+        border-radius: 0 !important;
+        background-color: #343434;
+    }
+
+    .review-title {
+        font-family: 'Serpentine_BoldOblique' !important;
+        font-size: 40px;
+    }
+
+    .btn-read-more {
+        button {
+            padding-inline: 42px;
+            padding-block: 12px;
+            background: #FF4900;
+            text-transform: uppercase;
+            margin-block: 36px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: sans-serif;
+            animation: none;
+        }
+    }
+}

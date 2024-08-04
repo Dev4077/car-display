@@ -1,0 +1,17 @@
+#main-section {
+  background-color: #000;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: 991px) {
+    .hero-container {
+      padding-inline: 7rem;
+    }
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #fff !important;
+  }
+
+}

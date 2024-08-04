@@ -1,0 +1,44 @@
+.ScheduleSec {
+    margin-top: 6rem;
+
+    @media screen and (min-width: 991px) {
+        .Schedule-container {
+            padding-inline: 7rem;
+        }
+    }
+
+    .main-img {
+        width: 100%;
+    }
+
+    .sch-button {
+        right: 352px;
+        bottom: 148px;
+
+        button {
+            border: 2px solid white;
+            background-color: #0084ff;
+            border-radius: 2px;
+            color: white;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-inline: 27px;
+            padding-block: 12px;
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .sch-button {
+            right: 98px;
+            bottom: 17px;
+
+        }
+    }
+
+    @media screen and (max-width: 991px) {
+        .main-img {
+            display: none;
+        }
+    }
+}

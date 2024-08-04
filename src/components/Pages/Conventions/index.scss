@@ -1,0 +1,48 @@
+#Convantions {
+    .CommercialImgMain {
+        height: 37.5rem;
+        margin-top: 14px;
+        border: 2px solid #0084ff;
+        border-radius: 70px 0px;
+    }
+
+    .sch-button {
+        left: 90px;
+        bottom: 45px;
+
+        button {
+            border: 2px solid white;
+            background-color: #0084ff;
+            border-radius: 2px;
+            color: white;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-inline: 27px;
+            padding-block: 12px;
+        }
+    }
+
+    .heading {
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Serpentine_BoldOblique' !important;
+        letter-spacing: 2px;
+        font-weight: 400 !important;
+    }
+
+    .btn-call {
+        button {
+            padding-inline: 42px;
+            padding-block: 12px;
+            background: #FF4900;
+            text-transform: uppercase;
+            margin-block: 36px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            font-family: sans-serif;
+            animation: none;
+        }
+    }
+}
