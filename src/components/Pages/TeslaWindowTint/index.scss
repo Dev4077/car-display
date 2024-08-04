@@ -1,0 +1,72 @@
+#TeslaWindowTint {
+    overflow: hidden;
+
+    .sch-button {
+        left: 90px;
+        bottom: 45px;
+
+        button {
+            border: 2px solid white;
+            background-color: #0084ff;
+            border-radius: 2px;
+            color: white;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-inline: 27px;
+            padding-block: 12px;
+        }
+    }
+
+    .heading {
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Serpentine_BoldOblique' !important;
+        letter-spacing: 2px;
+        font-weight: 400 !important;
+    }
+
+    .card.border-warning {
+        border: 2px solid #ff851b;
+    }
+
+    .badge.bg-warning {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+
+    .dropdowncss {
+        padding-right: 2.5rem;
+    }
+
+    .dropdown-icon {
+        top: 50%;
+        right: 1rem;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .popularBorder {
+        border: 3px solid orangered;
+        border-radius: 0;
+        padding-block: 5px;
+        padding-inline: 17px;
+    }
+
+    .simpleBorder {
+        border: 3px;
+        border-radius: 0;
+        padding-block: 5px;
+        padding-inline: 17px;
+    }
+
+    .popular {
+        left: -10px;
+        top: 12px;
+    }
+
+    .bg-gray {
+        background-color: #343434;
+        text-align: justify;
+    }
+}

@@ -1,0 +1,24 @@
+#fleetWraps {
+    overflow: hidden;
+
+    .bg-gray {
+        background-color: #343434;
+        text-align: justify;
+    }
+
+    .heading {
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Serpentine_BoldOblique' !important;
+        letter-spacing: 2px;
+        font-weight: 400 !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #fff !important;
+    }
+
+    .mySwiper {
+        border: 4px solid #0d99ff;
+    }
+}

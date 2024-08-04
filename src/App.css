@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Serpentine_BoldOblique";
+  src: url("../src/assets/fonts/Serpentine_BoldOblique.ttf");
+}
+body {
+  background-color: black !important;
+  color: white;
+}
